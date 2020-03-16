@@ -12,7 +12,7 @@ namespace CoCoSDK
 {
     
  public class CoCoContext 
-    {
+{
         public string action_name {get; set;}
 
         public string response {get; set;}
@@ -30,7 +30,8 @@ namespace CoCoSDK
         public Dictionary<string, string> updated_context {get; set;} 
     }
 
-public class CoCo {
+public class CoCo 
+{
         const string HubApiUrl = @"https://cocohub.ai/api";
 
         public CoCoContext Exchange(string ComponentId, string SessionId, string UserInput, Dictionary<string, string> Context=null) {
