@@ -54,8 +54,6 @@ class CoCo {
 
             string content = string.Format(contentFormat, UserInput, StringContext);
             
-            Console.WriteLine(content);
-
             request.Content = new StringContent(content,
                                                 Encoding.UTF8, 
                                                 "application/json"); //CONTENT-TYPE header
