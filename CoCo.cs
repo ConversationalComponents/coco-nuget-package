@@ -30,7 +30,7 @@ namespace CoCoSDK
         public Dictionary<string, string> updated_context {get; set;} 
     }
 
-class CoCo {
+public class CoCo {
         const string HubApiUrl = @"https://cocohub.ai/api";
 
         public CoCoContext Exchange(string ComponentId, string SessionId, string UserInput, Dictionary<string, string> Context=null) {
