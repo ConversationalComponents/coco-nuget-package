@@ -1,4 +1,4 @@
-# CoCo .NET CORE DSK
+# CoCo .NET CORE SDK
 
 SDK for implementing Conversational Components from CoCoHub in your Bot: 
 [https://conversationalcomponents.com](https://conversationalcomponents.com)
