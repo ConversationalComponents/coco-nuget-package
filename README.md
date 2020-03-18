@@ -1,5 +1,9 @@
 # CoCo .NET CORE DSK
 
+SDK for implementing Conversational Components from CoCoHub in your Bot: 
+[https://conversationalcomponents.com](https://conversationalcomponents.com)
+
+
 ## SDK Classes:
 * CoCoContext - CoCo component response object, contains:
      - public string action_name - Response action name.
