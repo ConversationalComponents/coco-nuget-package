@@ -3,6 +3,11 @@
 SDK for implementing Conversational Components from CoCoHub in your Bot: 
 [https://conversationalcomponents.com](https://conversationalcomponents.com)
 
+## Installation:
+
+```
+dotnet add package CoCoSDK --version 1.0.1
+```
 
 ## SDK Classes:
 * CoCoContext - CoCo component response object, contains:
