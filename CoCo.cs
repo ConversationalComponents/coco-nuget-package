@@ -17,6 +17,8 @@ namespace CoCoSDK
 
         public string response {get; set;}
 
+        public List<Dictionary<string, string>> responses {get; set;}
+
         public bool component_done {get; set;}
         public bool conmponent_failed {get; set;}
         
